@@ -1,0 +1,13 @@
+C:\Users\pc\dev\td_corp\td_corp.INFRA\bin\Debug\netstandard2.0\td_corp.INFRA.deps.json
+C:\Users\pc\dev\td_corp\td_corp.INFRA\bin\Debug\netstandard2.0\td_corp.INFRA.dll
+C:\Users\pc\dev\td_corp\td_corp.INFRA\bin\Debug\netstandard2.0\td_corp.INFRA.pdb
+C:\Users\pc\dev\td_corp\td_corp.INFRA\bin\Debug\netstandard2.0\td_corp.DOMAIN.dll
+C:\Users\pc\dev\td_corp\td_corp.INFRA\bin\Debug\netstandard2.0\td_corp.SHARED.dll
+C:\Users\pc\dev\td_corp\td_corp.INFRA\bin\Debug\netstandard2.0\td_corp.DOMAIN.pdb
+C:\Users\pc\dev\td_corp\td_corp.INFRA\bin\Debug\netstandard2.0\td_corp.SHARED.pdb
+C:\Users\pc\dev\td_corp\td_corp.INFRA\obj\Debug\netstandard2.0\td_corp.INFRA.csprojAssemblyReference.cache
+C:\Users\pc\dev\td_corp\td_corp.INFRA\obj\Debug\netstandard2.0\td_corp.INFRA.AssemblyInfoInputs.cache
+C:\Users\pc\dev\td_corp\td_corp.INFRA\obj\Debug\netstandard2.0\td_corp.INFRA.AssemblyInfo.cs
+C:\Users\pc\dev\td_corp\td_corp.INFRA\obj\Debug\netstandard2.0\td_corp.INFRA.csproj.CopyComplete
+C:\Users\pc\dev\td_corp\td_corp.INFRA\obj\Debug\netstandard2.0\td_corp.INFRA.dll
+C:\Users\pc\dev\td_corp\td_corp.INFRA\obj\Debug\netstandard2.0\td_corp.INFRA.pdb

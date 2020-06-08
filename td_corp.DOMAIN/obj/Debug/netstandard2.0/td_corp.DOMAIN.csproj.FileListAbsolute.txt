@@ -1,0 +1,11 @@
+C:\Users\pc\dev\td_corp\td_corp.DOMAIN\bin\Debug\netstandard2.0\td_corp.DOMAIN.deps.json
+C:\Users\pc\dev\td_corp\td_corp.DOMAIN\bin\Debug\netstandard2.0\td_corp.DOMAIN.dll
+C:\Users\pc\dev\td_corp\td_corp.DOMAIN\bin\Debug\netstandard2.0\td_corp.DOMAIN.pdb
+C:\Users\pc\dev\td_corp\td_corp.DOMAIN\bin\Debug\netstandard2.0\td_corp.SHARED.dll
+C:\Users\pc\dev\td_corp\td_corp.DOMAIN\bin\Debug\netstandard2.0\td_corp.SHARED.pdb
+C:\Users\pc\dev\td_corp\td_corp.DOMAIN\obj\Debug\netstandard2.0\td_corp.DOMAIN.csprojAssemblyReference.cache
+C:\Users\pc\dev\td_corp\td_corp.DOMAIN\obj\Debug\netstandard2.0\td_corp.DOMAIN.AssemblyInfoInputs.cache
+C:\Users\pc\dev\td_corp\td_corp.DOMAIN\obj\Debug\netstandard2.0\td_corp.DOMAIN.AssemblyInfo.cs
+C:\Users\pc\dev\td_corp\td_corp.DOMAIN\obj\Debug\netstandard2.0\td_corp.DOMAIN.csproj.CopyComplete
+C:\Users\pc\dev\td_corp\td_corp.DOMAIN\obj\Debug\netstandard2.0\td_corp.DOMAIN.dll
+C:\Users\pc\dev\td_corp\td_corp.DOMAIN\obj\Debug\netstandard2.0\td_corp.DOMAIN.pdb
