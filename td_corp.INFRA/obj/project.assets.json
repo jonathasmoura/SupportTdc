@@ -391,6 +391,9 @@
       "td_corp.SHARED/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "flunt": "1.0.5"
+        },
         "compile": {
           "bin/placeholder/td_corp.SHARED.dll": {}
         },

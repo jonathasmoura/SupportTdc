@@ -342,6 +342,9 @@
         }
       },
       "td_corp.SHARED/1.0.0": {
+        "dependencies": {
+          "Flunt": "1.0.5"
+        },
         "runtime": {
           "td_corp.SHARED.dll": {}
         }
