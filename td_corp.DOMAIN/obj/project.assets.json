@@ -215,6 +215,7 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
+      "flunt",
       "td_corp.SHARED >= 1.0.0"
     ]
   },
@@ -268,6 +269,10 @@
             "target": "Package",
             "version": "[2.0.3, )",
             "autoReferenced": true
+          },
+          "flunt": {
+            "target": "Package",
+            "version": "(, )"
           }
         },
         "imports": [
