@@ -1,12 +1,12 @@
 using System;
-using System.Collections.Generic;
 using System.Linq;
+using td_corp.SHARED;
+using System.Collections.Generic;
 
 namespace td_corp.DOMAIN.Entities
 {
-    public class Marking
-    {
-        
+    public class Marking : Entity
+    {        
         private IList<Model> _models;
         public Marking(string name)
         {
