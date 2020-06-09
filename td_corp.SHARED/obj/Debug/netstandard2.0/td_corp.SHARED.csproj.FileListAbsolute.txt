@@ -1,8 +1,8 @@
 C:\Users\pc\dev\td_corp\td_corp.SHARED\bin\Debug\netstandard2.0\td_corp.SHARED.deps.json
 C:\Users\pc\dev\td_corp\td_corp.SHARED\bin\Debug\netstandard2.0\td_corp.SHARED.dll
 C:\Users\pc\dev\td_corp\td_corp.SHARED\bin\Debug\netstandard2.0\td_corp.SHARED.pdb
-C:\Users\pc\dev\td_corp\td_corp.SHARED\obj\Debug\netstandard2.0\td_corp.SHARED.csprojAssemblyReference.cache
 C:\Users\pc\dev\td_corp\td_corp.SHARED\obj\Debug\netstandard2.0\td_corp.SHARED.AssemblyInfoInputs.cache
 C:\Users\pc\dev\td_corp\td_corp.SHARED\obj\Debug\netstandard2.0\td_corp.SHARED.AssemblyInfo.cs
 C:\Users\pc\dev\td_corp\td_corp.SHARED\obj\Debug\netstandard2.0\td_corp.SHARED.dll
 C:\Users\pc\dev\td_corp\td_corp.SHARED\obj\Debug\netstandard2.0\td_corp.SHARED.pdb
+C:\Users\pc\dev\td_corp\td_corp.SHARED\obj\Debug\netstandard2.0\td_corp.SHARED.csprojAssemblyReference.cache

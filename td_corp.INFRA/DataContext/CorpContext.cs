@@ -7,6 +7,10 @@ namespace td_corp.INFRA.DataContext
 {
     public class CorpContext : DbContext
     {
+        public CorpContext(DbContextOptions options)
+        :base(options){
+            
+        }
 
         public DbSet<Announce> Announces { get; set; }
         public DbSet<Marking> Markings { get; set; }
