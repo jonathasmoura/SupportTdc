@@ -29,5 +29,33 @@ namespace td_corp.API.Controllers
         {
             return (CommandsResult)handler.Handle(command);
         }
+
+        [Route("{id}")]
+        [HttpGet]
+        public CommandsResult GetById([FromHeader] GetMarkingByIdCommand command, [FromServices] MarkingCommandHandler handler)
+        {
+            return (CommandsResult)handler.Handle(command);
+        }
+
+        [Route("inactivate/{id}")]
+        [HttpPatch]
+        public CommandsResult Inactivated([FromHeader] InactiveMarkingByIdCommand command, [FromServices] MarkingCommandHandler handler)
+        {
+            return (CommandsResult)handler.Handle(command);
+        }
+
+        [Route("activate/{id}")]
+        [HttpPatch]
+        public CommandsResult Activated([FromHeader] ActiveMarkingByIdCommand command, [FromServices] MarkingCommandHandler handler)
+        {
+            return (CommandsResult)handler.Handle(command);
+        }
+
+        [Route("{id}")]
+        [HttpPut]
+        public CommandsResult EditMarking([FromHeader] Guid id, [FromBody] EditMarkingCommand command, [FromServices] MarkingCommandHandler handler)
+        {
+            return (CommandsResult)handler.Handle(command);
+        }
     }
 }
