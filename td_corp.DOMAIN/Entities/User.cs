@@ -1,8 +1,9 @@
 using System;
+using td_corp.SHARED;
 
 namespace td_corp.DOMAIN.Entities
 {
-    public class User
+    public class User : Entity
     {
         public User(string name, string email, string password, bool isAdmin)
         {

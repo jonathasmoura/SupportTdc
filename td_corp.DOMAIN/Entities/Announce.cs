@@ -1,8 +1,9 @@
 using System;
+using td_corp.SHARED;
 
 namespace td_corp.DOMAIN.Entities
 {
-    public class Announce
+    public class Announce : Entity
     {
 
         public string Nome { get; private set; }

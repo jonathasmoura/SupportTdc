@@ -15,19 +15,43 @@ namespace td_corp.INFRA.Mappings
             builder.ToTable(nameof(Marking));
         }
 
-        private void Relationship(EntityTypeBuilder<Marking> builder)
-        {
-            throw new NotImplementedException();
-        }
 
         private void Properties(EntityTypeBuilder<Marking> builder)
         {
-            throw new NotImplementedException();
+            builder.HasKey(entity => entity.Id);
+            builder.Property(entity => entity.Id)
+            .HasColumnName(nameof(Marking.Id))
+            .IsRequired();
+
+            builder.Property(entity => entity.IsActive)
+            .HasColumnName(nameof(Marking.IsActive))
+            .IsRequired()
+            .HasDefaultValue(true);
+
+            builder.Property(entity => entity.Name)
+            .HasColumnName(nameof(Marking.Name))
+            .IsRequired();
+
+            builder.Property(entity => entity.ActivationDate)
+            .HasColumnName(nameof(Marking.ActivationDate))
+            .IsRequired(false)
+            .HasDefaultValue(DateTime.UtcNow);
+
+            builder.Property(entity => entity.Created)
+            .HasColumnName(nameof(Marking.Created))
+            .IsRequired()
+            .HasDefaultValue(DateTime.UtcNow);
         }
 
         private void Ignores(EntityTypeBuilder<Marking> builder)
         {
-            throw new NotImplementedException();
+            builder.Ignore(entity => entity.Valid);
+        }
+        private void Relationship(EntityTypeBuilder<Marking> builder)
+        {
+            builder.HasMany(entity => entity.Models)
+            .WithOne(o => o.Marking)
+            .HasForeignKey(entity => entity.MarkingId);
         }
     }
 }

@@ -1,4 +1,3 @@
-using Newtonsoft.Json;
 using Microsoft.AspNetCore.Http;
 using td_corp.INFRA.DataContext;
 using Microsoft.AspNetCore.Hosting;
@@ -10,6 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using td_corp.INFRA.Repositories;
 using td_corp.DOMAIN.Repositories;
 using td_corp.DOMAIN.MarkingCommandHandlers;
+using Newtonsoft.Json;
 
 namespace td_corp.API
 {
