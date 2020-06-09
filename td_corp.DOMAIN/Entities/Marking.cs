@@ -6,7 +6,7 @@ using System.Collections.Generic;
 namespace td_corp.DOMAIN.Entities
 {
     public class Marking : Entity
-    {        
+    {
         private IList<Model> _models;
         public Marking(string name)
         {
@@ -15,6 +15,16 @@ namespace td_corp.DOMAIN.Entities
         }
 
         public string Name { get; private set; }
+        public void Activate() => IsActive = true;
+        public void Inactivate() => IsActive = false;
         public virtual IReadOnlyCollection<Model> Models { get { return _models.ToArray(); } }
+
+
+
+        public void UpdateName(string name)
+        {
+            Name = name;
+        }
+
     }
 }
