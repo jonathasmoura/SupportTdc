@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\td_corp.DOMAIN\td_corp.DOMAIN.csproj" />
+    <ProjectReference Include="..\td_corp.INFRA\td_corp.INFRA.csproj" />
+    <ProjectReference Include="..\td_corp.SHARED\td_corp.SHARED.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="3.1.4" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+
+</Project>

@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "td_corp.TESTS", "td_corp.TE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "td_corp.INFRA", "td_corp.INFRA\td_corp.INFRA.csproj", "{2EB32656-E550-43C4-AFB8-6D94D380E21C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "td_corp.API", "td_corp.API\td_corp.API.csproj", "{FD654047-CFED-411E-949E-F033C789ABEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,5 +86,17 @@ Global
 		{2EB32656-E550-43C4-AFB8-6D94D380E21C}.Release|x64.Build.0 = Release|Any CPU
 		{2EB32656-E550-43C4-AFB8-6D94D380E21C}.Release|x86.ActiveCfg = Release|Any CPU
 		{2EB32656-E550-43C4-AFB8-6D94D380E21C}.Release|x86.Build.0 = Release|Any CPU
+		{FD654047-CFED-411E-949E-F033C789ABEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD654047-CFED-411E-949E-F033C789ABEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD654047-CFED-411E-949E-F033C789ABEC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FD654047-CFED-411E-949E-F033C789ABEC}.Debug|x64.Build.0 = Debug|Any CPU
+		{FD654047-CFED-411E-949E-F033C789ABEC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FD654047-CFED-411E-949E-F033C789ABEC}.Debug|x86.Build.0 = Debug|Any CPU
+		{FD654047-CFED-411E-949E-F033C789ABEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD654047-CFED-411E-949E-F033C789ABEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD654047-CFED-411E-949E-F033C789ABEC}.Release|x64.ActiveCfg = Release|Any CPU
+		{FD654047-CFED-411E-949E-F033C789ABEC}.Release|x64.Build.0 = Release|Any CPU
+		{FD654047-CFED-411E-949E-F033C789ABEC}.Release|x86.ActiveCfg = Release|Any CPU
+		{FD654047-CFED-411E-949E-F033C789ABEC}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
