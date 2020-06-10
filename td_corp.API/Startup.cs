@@ -10,6 +10,7 @@ using td_corp.INFRA.Repositories;
 using td_corp.DOMAIN.Repositories;
 using td_corp.DOMAIN.MarkingCommandHandlers;
 using Newtonsoft.Json;
+using td_corp.DOMAIN.ModelCommandHandlers;
 
 namespace td_corp.API
 {
@@ -33,6 +34,8 @@ namespace td_corp.API
             services.AddScoped<CorpContext, CorpContext>();
             services.AddTransient<IMarkingRepository, MarkingRepository>();
             services.AddTransient<MarkingCommandHandler, MarkingCommandHandler>();
+            services.AddTransient<IModelRepository, ModelRepository>();
+            services.AddTransient<ModelCommandHandler, ModelCommandHandler>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
