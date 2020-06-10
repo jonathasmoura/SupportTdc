@@ -5,12 +5,12 @@ using Flunt.Notifications;
 
 namespace td_corp.DOMAIN.Commands.MarkingCommands.ModelCommands
 {
-    public class UpdateModelCommand  : Notifiable, ICommand
-    {        
+    public class UpdateModelCommand : Notifiable, ICommand
+    {
         public Guid Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
-        
+
         public void Validate()
         {
             AddNotifications(new Contract()

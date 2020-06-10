@@ -28,10 +28,11 @@ namespace td_corp.DOMAIN.ModelCommandHandlers
             if (command.Invalid)
                 return new CommandsResult(false, "Ops, não foi possível cadastrar o modelo.", command.Notifications);
 
-            if (_modelRepository.ExistsModel(command.Name, command.Description))
-                return new CommandsResult(false, "Já existe dados do modelo informado em nossa base de dados", command);
+            // if (_modelRepository.ExistsModel(command.Name, command.Description))
+            //     return new CommandsResult(false, "Já existe dados do modelo informado em nossa base de dados", command);
 
             var mId = _markingRepository.GetById(command.MarkingId);
+            
             var mod = new Model(command.Name,
             command.Description,
             mId.Id);

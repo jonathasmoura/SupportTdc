@@ -17,7 +17,7 @@ namespace td_corp.DOMAIN.Entities
         public string Name { get; private set; }
         public void Activate() => IsActive = true;
         public void Inactivate() => IsActive = false;
-        public virtual IReadOnlyCollection<Model> Models { get { return _models.ToArray(); } }
+        public ICollection<Model> Models { get; set; }
 
 
 
