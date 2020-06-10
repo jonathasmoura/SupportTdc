@@ -34,6 +34,7 @@ namespace td_corp.INFRA.Repositories
         public Marking GetById(Guid id)
         {
             var mark = _context.Markings
+            .Include(x => x.Models)
             .FirstOrDefault(x => x.Id == id);
             return mark;
         }
